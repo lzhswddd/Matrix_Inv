@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{2a794382-e53a-4a02-9330-c2a205ff6c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{7a711905-61e8-4a6a-8aea-84871e74c0de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\BSpline.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CvMat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cvtColor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Geometry.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LargeNumber.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Mat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MatApi.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MatOperator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MatType.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Variable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\BSpline.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CvMat.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cvtColor.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Geometry.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LargeNumber.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mat.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MatApi.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MatOperator.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sort.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Variable.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
